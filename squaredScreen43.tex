@@ -1,0 +1,21 @@
+\documentclass{beamer}
+
+% package for drawing
+\usepackage{tikz}
+
+% no symbols for navigation
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+ % draw squared background
+ \usebackgroundtemplate{
+  \begin{tikzpicture} % 128 x 96
+   \draw[step=.5cm,gray!25!white,thin] (-0.23,-0.285) grid (12.57,9.315);
+  \end{tikzpicture}
+ }
+
+ \begin{frame}{}
+ % One empty frame
+ \end{frame}
+
+\end{document}
