@@ -1,3 +1,11 @@
+## Exlcude build directory
+build
+
+
+################################################################################
+# .gitignore from GitHub for latex-repos
+################################################################################
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
