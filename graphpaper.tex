@@ -1,0 +1,38 @@
+\documentclass{article}
+
+\providecommand{\geometryoptions}{a4paper,margin=1.3cm}
+\providecommand{\geometryorientation}{portrait}
+
+% Package for drawing
+\usepackage{tikz}
+\usetikzlibrary{math}
+
+\newdimen\gridwitdh
+\newdimen\gridheight
+
+% Margin: ~1.5cm - maybe ~1.3cm and do the rest with rounding?
+
+% Package for exact paper sizing
+\usepackage[\geometryoptions,\geometryorientation]{geometry}
+% Add showframe from debug of page margins
+
+\definecolor{framegray}{gray}{0.75}
+\definecolor{gridgray}{gray}{0.87}
+
+% No Pagenumbers
+\pagestyle{empty}
+
+\begin{document}%
+\tikzmath{
+  \gridwitdh = \textwidth*1pt - mod(\textwidth * 1pt, 0.5cm);
+  \gridheight = \textheight*1pt - mod(\textheight * 1pt, 0.5cm);
+}%
+\begin{figure}\centering
+ \begin{tikzpicture}
+  % Squared grid as background
+  \draw[step=.5cm,gridgray,thin] (0,0) grid (\gridwitdh,\gridheight);
+   % A thicker frame as a border around the grid
+  \draw[framegray,thick] (0,0) rectangle (\gridwitdh,\gridheight);
+  \end{tikzpicture}
+ \end{figure}
+\end{document}
