@@ -1,6 +1,6 @@
 # Printable Graph Paper
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/bithappens/vscode-plain-sidebar?style=flat&label=GitHub%20stars&link=https%3A%2F%2Fgithub.com%2Fbithappens%2Fprintable-graph-paper%2Fstargazers)](https://github.com/bithappens/printable-graph-paper)
+[![GitHub Repo stars](https://img.shields.io/github/stars/bithappens/printable-graph-paper?style=flat&label=GitHub%20stars&link=https%3A%2F%2Fgithub.com%2Fbithappens%2Fprintable-graph-paper%2Fstargazers)](https://github.com/bithappens/printable-graph-paper)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bithappens/printable-graph-paper/total?style=flat&label=GitHub%20downloads)
 
 Download elegant digital graph papers in various sizes.
