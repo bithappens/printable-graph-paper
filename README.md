@@ -1,7 +1,7 @@
 # Printable Graph Paper
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/bithappens/printable-graph-paper?style=flat&label=GitHub%20stars&link=https%3A%2F%2Fgithub.com%2Fbithappens%2Fprintable-graph-paper%2Fstargazers)](https://github.com/bithappens/printable-graph-paper)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bithappens/printable-graph-paper/total?style=flat&label=GitHub%20downloads)
+[![GitHub Repo stars](https://img.shields.io/github/stars/bithappens/printable-graph-paper?style=flat&label=GitHub%20stars&link=https%3A%2F%2Fgithub.com%2Fbithappens%2Fprintable-graph-paper%2Fstargazers)](https://github.com/bithappens/printable-graph-paper/stargazers)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bithappens/printable-graph-paper/total?style=flat&label=GitHub%20downloads)](https://tooomm.github.io/github-release-stats/?username=bithappens&repository=printable-graph-paper)
 
 Download elegant digital graph papers in various sizes.
 The light gray grid of square cells creates orientation on the sheet for writing and drawing without being dominant.
